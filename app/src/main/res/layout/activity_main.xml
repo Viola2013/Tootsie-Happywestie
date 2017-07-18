@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:style="@styles/my_style">
+
+        <!-- this is a image that is used for background -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tootsie2" />
+
+        <!-- in these TextViews I defined the copyright which is sometimes good to have in the app too :)
+        and also to define the text and the layout for the card, not forgetting the color and font setup too -->
+        <TextView
+            android:id="@+id/copyright_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="\u00A9 Mervi 2017"
+            android:textColor="#fafafa"
+            android:textSize="15sp" />
+
+        <!-- textview with business name -->
+        <TextView
+            android:id="@+id/hello_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EDE7F6"
+            android:padding="10dp"
+            android:text="@string/businessname"
+            android:textColor="#000066"
+            android:textSize="20sp" />
+
+        <!-- textview with opening hours -->
+        <TextView
+            android:id="@+id/open_info_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="37dp"
+            android:padding="10dp"
+            android:text="@string/open_info"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <!-- textview with contact information -->
+        <TextView
+            android:id="@+id/contact_info_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="42dp"
+            android:padding="10dp"
+            android:text="@string/contact_info"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </RelativeLayout>
+</ScrollView>

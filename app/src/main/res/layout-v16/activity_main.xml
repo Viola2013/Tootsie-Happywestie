@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <!-- this is a image that is used for background -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/tootsie2"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <!-- in these TextViews I defined the copyright which is sometimes good to have in the app too :)
+    and also to define the text and the layout for the card, not forgetting the color and font setup too -->
+       <TextView
+        android:id="@+id/copyright_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="15dp"
+        android:fontFamily="Sans-sherif-light"
+        android:textColor="#fafafa"
+        android:padding="20dp"
+        android:text="@string/copyright"
+        />
+
+    <!-- textview with business name -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="#EDE7F6"
+        android:fontFamily="Sans-sherif-medium"
+        android:textColor="#000066"
+        android:padding="10dp"
+        android:text="@string/businessname"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <!-- textview with opening hours -->
+    <TextView
+        android:id="@+id/open_info_text_view"
+        style="@style/my_style"
+        android:fontFamily="Sans-sherif-light"
+        android:text="@string/open_info"
+        android:layout_marginBottom="37dp"
+        android:layout_above="@+id/copyright_text_view"
+        android:layout_alignLeft="@+id/contact_info_text_view"
+        android:layout_alignStart="@+id/contact_info_text_view" />
+
+    <!-- textview with contact information -->
+    <TextView
+        android:id="@+id/contact_info_text_view"
+        style="@style/my_style"
+        android:fontFamily="Sans-sherif-light"
+        android:text="@string/contact_info"
+        android:layout_alignTop="@+id/open_info_text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp" />
+
+    </ScrollView>
