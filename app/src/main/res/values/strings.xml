@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name" translatable="false">"Tootsie Happy westie"</string>
+    <string name="app_name" translatable="false">"Saloon Happy Westie"</string>
     <string name="copyright" translatable="false">\u00A9 Mervi 2017</string>
     <string name="open_info" translatable="false">Open Mon-Fri 08:00 - 16:00 o\'clock</string>
-    <string name="contact_info" translatable="false">Contact mervi.koninki@gmail.com</string>
+    <string name="contact_info" translatable="false">Contact happywestie@mail.com</string>
     <string name="businessname" translatable="false"> Trimming and nail cutting for dogs</string>
 </resources>
